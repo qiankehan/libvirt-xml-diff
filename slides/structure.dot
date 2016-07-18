@@ -1,0 +1,10 @@
+digraph G {
+    agenda [label="Agenda"];
+    target [label="Target of the Lecture"]
+    xml [label="XML"]
+    rng [label="RNG"]
+    tools [label="Tools of XML&RNG"]
+    work [label="libvirt-xml-diff"]
+    background [label="Background Knowledge"]
+    agenda -> {target; xml; rng; tools; work; background;};
+}
