@@ -1,7 +1,0 @@
-digraph G {
-    doc [label="Document", fontsize=25];
-    xml [label="XML", fontsize=25];
-    spec [label="Specific XML(libvirt-xml/xhtml..)", fontsize=25];
-    doc -> xml [headlabel="well-formness check", taillabel="via XML1.0/1.1 Spec"]
-    xml -> spec [headlabel="validate", taillabel="via xml schemas(rng,xsd...)"]
-}

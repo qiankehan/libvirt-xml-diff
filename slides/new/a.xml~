@@ -1,4 +1,0 @@
-<mail cc="peter">
-<sender class='1'></sender>
-<recv id="a" name="b"></recv>
-</mail>
